@@ -1,0 +1,23 @@
+*{margin:0; padding:0;}
+div#box{
+	width: 600px;
+	border: 2px solid #000;
+	height: 600px;
+	background: white;
+	margin:50px auto;
+	transform: rotate(-90deg);
+}
+div#box div.quadrado{
+	width: 75px;
+	height: 75px;
+	background: #ccc;
+	float: left; 
+	transform: rotate(90deg);
+}
+div#box .quadrado.braco{background: white;}
+div#box .quadrado.preto{background: #666;}
+div.quadrado img{
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
